@@ -39,7 +39,7 @@ models:
   dbt_fundamentals_on_demand:
     # Applies to all files under models/staging/
     staging:
-      +materialized: table
+      +materialized: view
 
     marts:
-      +materialized: view
+      +materialized: table
